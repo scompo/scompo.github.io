@@ -19,10 +19,22 @@
         <section class="example">
             <header>
                 <h1>Example 1</h1>
-                <p>Just import something and get the result</p>
+                <p>Just import something and get the result.</p>
             </header>
             <p>The text down here is <code>default text</code>, if stuff works it should change to <code>new text</code>.</p>
             <p id="example-1-text">default text</p>
+        </section>
+        <section class="example">
+            <link rel="stylesheet" href="css/example-2.css">
+            <header>
+                <h1>Example 2</h1>
+                <p>A more complex example with some style and events.</p>
+            </header>
+            <p>Click <code>Change</code> to change the <code>Text</code>.</p>
+            <section class="example-2-widget">
+                <p id="example-2-control">Change</p>
+                <p class="example-2-text-container">Text: <span id="example-2-text">initial text</span></p>
+            </section>
         </section>
     </main>
     <script type="module" src="main.mjs"></script>

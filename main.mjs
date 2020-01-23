@@ -1,6 +1,7 @@
 'use strict'
 
 import changeText from './modules/example-1.mjs'
+import example2 from './modules/example-2.mjs'
 
 async function example1() {
     return changeText('new text')
@@ -11,5 +12,8 @@ async function example1() {
         })
 }
 
-example1()
+Promise.all([
+        example1(),
+        example2()
+    ])
     .then(console.log)
