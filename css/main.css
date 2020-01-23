@@ -1,0 +1,41 @@
+:root {
+    --title-color: #dcdcdc;
+    --attention-color: #5c0000;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+}
+
+code {
+    color: var(--attention-color);
+}
+
+header h1 {
+    display: inline-block;
+    border-bottom: 1px solid var(--title-color);
+}
+
+.example {
+    display: inline-block;
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+.example p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#example-1-text {
+    display: inline-block;
+    background-color: var(--title-color);
+    color: var(--attention-color);
+    border: 1px solid var(--attention-color);
+    padding: 2em;
+}
